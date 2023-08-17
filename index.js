@@ -3,7 +3,7 @@ const port = 5000
 
 
 const server = http.createServer((req, res) => {
-    red.end ('Hola Mundo')
+    res.end ('Hola Mundo')
 })
 
 
